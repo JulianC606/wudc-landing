@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./fonts/Montserrat-VariableFont_wght.ttf");
+@import url("./fonts/Montserrat-Italic-VariableFont_wght.ttf");
+@import url("./fonts/Mulish-VariableFont_wght.ttf");
+@import url("./fonts/Mulish-Italic-VariableFont_wght.ttf");
+
+@layer utilities {
+    .section-border {
+        @apply border-mine-900 border-x-4 border-t-4 p-0.5 last:border-b-4
+                 md:border-x-[6px] md:border-t-[6px] md:p-1 last:md:border-b-[6px]
+                 lg:border-x-8 lg:border-t-8 lg:p-2 last:lg:border-b-8;
+    }
+}
